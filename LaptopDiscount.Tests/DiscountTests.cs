@@ -122,7 +122,7 @@ namespace LaptopDiscount.Tests
             _discount.Price = _discount.CalculateDiscountedPrice();
 
             // Assert
-            Assert.That(_discount.Price, Is.EqualTo(-10));
+            Assert.That(_discount.Price, Is.EqualTo(-10)); 
         }
 
 
